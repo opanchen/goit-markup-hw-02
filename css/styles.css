@@ -101,6 +101,7 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -132,13 +133,13 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .feature-descr {
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 }
 
 .team-section {
@@ -169,16 +170,23 @@ body {
 .page-footer {
   background-color: var(--footer-bg-color);
 }
+
+.page-footer .logo {
+  color: var(--primary-white-color);
+}
+
 .page-footer .link {
   color: var(--contacts-text-color);
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.address-link {
+.page-footer .address-link {
   color: var(--primary-white-color);
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -210,9 +218,10 @@ body {
   background-color: var(--secondary-bg-color);
   cursor: pointer;
 
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   text-align: center;
 }
 .filter .button:hover,
