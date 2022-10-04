@@ -101,7 +101,7 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -218,7 +218,7 @@ body {
   background-color: var(--secondary-bg-color);
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
